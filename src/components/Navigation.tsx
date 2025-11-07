@@ -89,6 +89,9 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
                 Contact Us
               </Link>
             )}
+            <a href="https://wla.printify.me/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#D9BA84] transition-colors">
+              Store
+            </a>
           </div>
 
           <button
@@ -138,6 +141,9 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
                 Contact Us
               </Link>
             )}
+            <a href="https://wla.printify.me/" target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-gray-300 hover:text-[#D9BA84] transition-colors py-2">
+              Store
+            </a>
           </div>
         </div>
       )}
