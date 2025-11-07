@@ -71,9 +71,14 @@ export default function Events() {
               <p className="text-lg text-gray-300 mb-6">
                 Limited spots available. Secure your place now!
               </p>
-              <button className="px-8 py-4 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold rounded-lg hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-lg shadow-[#D9BA84]/50">
-                Register Now
-              </button>
+              <a 
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=A2w-Yv3DqUmH7mcWHK2RUHAkIqbLoyNLozdu3zg82alUMDRYVTlGSUFSU0dQNzVSWVY4RjNJQzVKMy4u"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold rounded-lg hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-lg shadow-[#D9BA84]/50"
+              >
+                RSVP Now
+              </a>
             </div>
           </div>
         </div>
