@@ -43,7 +43,6 @@ export default function Events() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span><strong>Cost:</strong> $100</span>
                   </li>
                 </ul>
               </div>
@@ -53,7 +52,7 @@ export default function Events() {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Catered by Chef Good Chef</span>
+                    <span>Catered by Good Chef</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
@@ -76,7 +75,7 @@ export default function Events() {
                 Limited spots available. Secure your place now!
               </p>
               <button className="px-8 py-4 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold rounded-lg hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-lg shadow-[#D9BA84]/50">
-                Register Now & Pay
+                Register Now
               </button>
             </div>
           </div>
