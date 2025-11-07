@@ -1,8 +1,35 @@
+interface Partner {
+  name: string;
+  description: string;
+}
+
+const PartnerCard = ({ partner }: { partner: Partner }) => {
+  return (
+    <div className="bg-zinc-800 p-8 rounded-2xl border-2 border-[#D9BA84]/30 hover:border-[#D9BA84]/60 transition-all overflow-hidden h-full flex flex-col">
+      <h3 className="text-2xl font-bold text-white mb-4">
+        {partner.name}
+      </h3>
+      <p className="text-gray-300 leading-relaxed flex-1">
+        {partner.description}
+      </p>
+    </div>
+  );
+};
+
 export default function Partners() {
-  const partners = [
-    { name: 'Randolph Enterprises' },
-    { name: 'FTE' },
-    { name: 'Founding Members' }
+  const partners: Partner[] = [
+    {
+      name: 'FTE',
+      description: 'Future Trends Enterprise (FTE) is a forward-thinking technology company that seamlessly integrates advanced solutions across digital and physical spaces.'
+    },
+    {
+      name: 'Randolph Enterprises',
+      description: 'A dynamic multi-industry conglomerate with a specialized automotive division, LowRider Solutions, featuring four patented technologies that revolutionize the lowrider industry while honoring its rich cultural heritage and tradition.'
+    },
+    {
+      name: 'Founding Members',
+      description: 'Pioneers and leaders of lowrider culture who have joined forces with WLA, FTE, and Randolph Enterprises to create a cultural movement dedicated to preserving and elevating lowrider heritage through decades of authentic artistry, tradition, and community stewardship.'
+    }
   ];
 
   return (
@@ -20,14 +47,7 @@ export default function Partners() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {partners.map((partner, index) => (
-            <div
-              key={index}
-              className="bg-zinc-800 p-12 rounded-2xl border-2 border-[#D9BA84]/30 hover:border-[#D9BA84]/60 transition-all hover:transform hover:scale-105"
-            >
-              <h3 className="text-2xl font-bold text-white text-center">
-                {partner.name}
-              </h3>
-            </div>
+            <PartnerCard key={index} partner={partner} />
           ))}
         </div>
       </div>
