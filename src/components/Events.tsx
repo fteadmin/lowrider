@@ -41,9 +41,6 @@ export default function Events() {
                     <span className="text-[#D9BA84] mr-2">✦</span>
                     <span><strong>Address:</strong> Provided upon registration</span>
                   </li>
-                  <li className="flex items-start">
-                    <span className="text-[#D9BA84] mr-2">✦</span>
-                  </li>
                 </ul>
               </div>
 
