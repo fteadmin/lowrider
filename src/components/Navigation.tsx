@@ -38,12 +38,13 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
                 <button onClick={() => handleNavClick('about')} className="text-gray-300 hover:text-[#D9BA84] transition-colors">
                   About Us
                 </button>
-                <button onClick={() => handleNavClick('partners')} className="text-gray-300 hover:text-[#D9BA84] transition-colors">
-                  Partners
-                </button>
                 <button onClick={() => handleNavClick('events')} className="text-gray-300 hover:text-[#D9BA84] transition-colors">
                   Events
                 </button>
+                <button onClick={() => handleNavClick('partners')} className="text-gray-300 hover:text-[#D9BA84] transition-colors">
+                  Partners
+                </button>
+                
               </>
             ) : (
               <>
@@ -57,7 +58,7 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 className="text-gray-300 hover:text-[#D9BA84] transition-colors flex items-center space-x-1"
               >
-                <span>Our Brands</span>
+                <span>Memberships</span>
                 <ChevronDown className={`w-4 h-4 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
               {isDropdownOpen && (

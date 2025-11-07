@@ -58,6 +58,15 @@ export default function About() {
             </div>
           </div>
         </div>
+
+        <div className="text-center mt-16 flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a href="/wla-association" className="px-8 py-4 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold rounded-lg hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-lg shadow-[#D9BA84]/50">
+            WLA Membership
+          </a>
+          <a href="/wealth-legacy" className="px-8 py-4 border-2 border-[#D9BA84] text-[#D9BA84] font-bold rounded-lg hover:bg-[#D9BA84] hover:text-[#031100] transition-all">
+            Wealth & Legacy Membership
+          </a>
+        </div>
       </div>
     </section>
   );

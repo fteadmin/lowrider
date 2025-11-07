@@ -2,7 +2,7 @@ export default function Partners() {
   const partners = [
     { name: 'Randolph Enterprises' },
     { name: 'FTE' },
-    { name: 'Primiers Enterprises' }
+    { name: 'Founding Members' }
   ];
 
   return (

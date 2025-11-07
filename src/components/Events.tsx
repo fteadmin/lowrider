@@ -14,54 +14,58 @@ export default function Events() {
           <div className="relative z-10">
             <div className="flex items-center justify-center mb-6">
               <Calendar className="w-12 h-12 text-[#D9BA84] mr-4" />
-              <h3 className="text-4xl md:text-5xl font-bold text-[#D9BA84]">The Lo Lo Awards</h3>
+              <h3 className="text-4xl md:text-5xl font-bold text-[#D9BA84]">Company Launch Party</h3>
             </div>
 
             <p className="text-xl text-center text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Our flagship annual event — a spectacular 3-day gala celebrating automotive design, music, dance, and heritage
+              Join us on November 16th for an exclusive celebration featuring fine dining and special presentations
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mt-12">
               <div className="bg-black/50 p-6 rounded-lg border border-[#D9BA84]/30">
-                <h4 className="text-2xl font-bold text-[#D9BA84] mb-4">Outdoor Cultural Festival</h4>
+                <h4 className="text-2xl font-bold text-[#D9BA84] mb-4">Event Details</h4>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Live music performances celebrating lowrider culture</span>
+                    <span><strong>Date:</strong> November 16</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Traditional and contemporary dance showcases</span>
+                    <span><strong>Time:</strong> 4:00 PM - 8:00 PM</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Custom vehicle exhibitions and displays</span>
+                    <span><strong>Location:</strong> Long Beach, CA</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Food, vendors, and community celebration</span>
+                    <span><strong>Address:</strong> Provided upon registration</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#D9BA84] mr-2">✦</span>
+                    <span><strong>Cost:</strong> $100</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-black/50 p-6 rounded-lg border border-[#D9BA84]/30">
-                <h4 className="text-2xl font-bold text-[#D9BA84] mb-4">Black-Tie Awards Ceremony</h4>
+                <h4 className="text-2xl font-bold text-[#D9BA84] mb-4">What to Expect</h4>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Recognition of excellence in automotive design</span>
+                    <span>Catered by Chef Good Chef</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Honoring master craftspeople and builders</span>
+                    <span>Special presentation by Randolph</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Celebrating cultural ambassadors and innovators</span>
+                    <span>Networking and celebration</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Networking with global lowrider community leaders</span>
+                    <span>Exclusive community experience</span>
                   </li>
                 </ul>
               </div>
@@ -69,10 +73,10 @@ export default function Events() {
 
             <div className="text-center mt-12">
               <p className="text-lg text-gray-300 mb-6">
-                Experience the ultimate fusion of heritage, artistry, and celebration
+                Limited spots available. Secure your place now!
               </p>
               <button className="px-8 py-4 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold rounded-lg hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-lg shadow-[#D9BA84]/50">
-                Learn More About The Lo Lo Awards
+                Register Now & Pay
               </button>
             </div>
           </div>

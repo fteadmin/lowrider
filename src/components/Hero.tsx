@@ -5,8 +5,8 @@ interface HeroProps {
 export default function Hero({ scrollToSection }: HeroProps) {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-      <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('/Lowriders Logo.jpg')"}}></div>
-      <div className="absolute inset-0 bg-gradient-to-br from-[#031100]/90 via-black/95 to-[#031100]/90"></div>
+      <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('https://images.pexels.com/photos/1637210/pexels-photo-1637210.jpeg')"}}></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#031100]/60 via-black/70 to-[#031100]/60"></div>
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#D9BA84] rounded-full filter blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#CCB550] rounded-full filter blur-3xl"></div>
