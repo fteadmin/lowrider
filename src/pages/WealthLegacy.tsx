@@ -59,7 +59,7 @@ export default function WealthLegacy() {
                     <p className="text-4xl font-bold text-[#D9BA84]">$5,000</p>
                   </div>
                   <div>
-                    <p className="text-gray-400 text-sm mb-1">Guaranteed Payout</p>
+                    <p className="text-gray-400 text-sm mb-1">Member Dividend</p>
                     <p className="text-4xl font-bold text-[#D9BA84]">$125,000</p>
                   </div>
                 </div>

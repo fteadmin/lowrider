@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import WLAAssociation from './pages/WLAAssociation';
 import WealthLegacy from './pages/WealthLegacy';
+import Competition from './pages/Competition';
 
 function App() {
   const location = useLocation();
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/wla-association" element={<WLAAssociation />} />
         <Route path="/wealth-legacy" element={<WealthLegacy />} />
+        <Route path="/competition" element={<Competition />} />
       </Routes>
       <Footer />
     </div>

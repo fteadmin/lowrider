@@ -67,7 +67,10 @@ export default function WLAAssociation() {
                 <p className="text-gray-300 mb-8">
                   Join thousands of passionate lowrider enthusiasts and become part of the global community.
                 </p>
-                <button className="px-10 py-4 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold text-lg rounded-lg hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-lg shadow-[#D9BA84]/50">
+                <button 
+                  onClick={() => window.open('https://8eca8f73-3cab-4ce6-8dee-918ea20130d4.paylinks.godaddy.com/wla-annual-membership', '_blank')}
+                  className="px-10 py-4 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold text-lg rounded-lg hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-lg shadow-[#D9BA84]/50"
+                >
                   Join Now
                 </button>
               </div>
