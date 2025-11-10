@@ -18,7 +18,7 @@ export default function Events() {
             </div>
 
             <p className="text-xl text-center text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Join us on November 16th for an exclusive celebration featuring fine dining and special presentations
+              Join us for an elevated celebration blending fine dining, meaningful connections, and a first look at our vision and growth strategy.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mt-12">
@@ -27,7 +27,7 @@ export default function Events() {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span><strong>Date:</strong> November 16</span>
+                    <span><strong>Date:</strong> Saturday, November 16</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
@@ -53,15 +53,15 @@ export default function Events() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Special presentation by Randolph</span>
+                    <span>Special Presentation By Randolph Enterprises</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Networking and celebration</span>
+                    <span>Investor & Founders' Networking</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Exclusive community experience</span>
+                    <span>Exclusive Community Experience</span>
                   </li>
                 </ul>
               </div>
