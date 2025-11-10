@@ -18,7 +18,7 @@ export default function Events() {
             </div>
 
             <p className="text-xl text-center text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Join us for an elevated celebration blending fine dining, meaningful connections, and a first look at our vision and growth strategy.
+              Join us for an elevated celebration event, meaningful connections, and a first look at our vision and growth strategy.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mt-12">
@@ -49,7 +49,7 @@ export default function Events() {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Fine Dining Experience Catered By Good Chef</span>
+                    <span>Catered By Good Chef</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
