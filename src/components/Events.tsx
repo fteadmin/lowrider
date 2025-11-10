@@ -49,7 +49,7 @@ export default function Events() {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span>Catered by Good Chef</span>
+                    <span>Fine Dining Experience Catered By Good Chef</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
