@@ -13,7 +13,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              The <span className="text-[#D9BA84] font-semibold">World Low Rider Association (WLA)</span> is the global organisation dedicated to preserving, promoting, and celebrating lowrider culture through artistry, craftsmanship, and community.
+              The <span className="text-[#D9BA84] font-semibold">World Lowrider Association (WLA)</span> is the global organisation dedicated to preserving, promoting, and celebrating lowrider culture through artistry, craftsmanship, and community.
             </p>
             <div className="grid grid-cols-3 gap-6 mt-8">
               <div className="text-center p-6 bg-zinc-800 rounded-lg border border-[#D9BA84]/30">

@@ -24,7 +24,7 @@ export default function Partners() {
     },
     {
       name: 'Randolph Enterprises',
-      description: 'A dynamic multi-industry conglomerate with a specialized automotive division, LowRider Solutions, featuring four patented technologies that revolutionize the lowrider industry while honoring its rich cultural heritage and tradition.'
+      description: 'A dynamic multi-industry conglomerate with a specialized automotive division, Lowrider Solutions, featuring four patented technologies that revolutionize the lowrider industry while honoring its rich cultural heritage and tradition.'
     },
     {
       name: 'Founding Members',

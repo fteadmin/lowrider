@@ -27,7 +27,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
     {
       id: 1,
       backgroundImage: 'https://images.pexels.com/photos/1637210/pexels-photo-1637210.jpeg',
-      title: 'World Low Rider Association',
+      title: 'World Lowrider Association',
       description: 'Preserving, promoting, and celebrating lowrider culture through artistry, craftsmanship, and community across the globe',
       buttons: [
         { label: 'Learn More', action: 'about', isPrimary: true },

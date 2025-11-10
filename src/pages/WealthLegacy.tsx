@@ -31,7 +31,7 @@ export default function WealthLegacy() {
             <div className="bg-gradient-to-r from-zinc-900 via-zinc-800 to-zinc-900 rounded-3xl border border-[#D9BA84]/40 p-12">
               <h2 className="text-4xl font-bold text-[#D9BA84] mb-6 text-center">Our Vision</h2>
               <p className="text-xl text-gray-300 leading-relaxed text-center">
-                Low Riders Wealth and Legacy is the first global membership club created for our community—where the heart of lowrider culture becomes a pathway to prosperity. We honor the traditions, creativity, and unity that define the movement and turn them into real opportunities for financial growth. Through the collective strength of our community, the power of shared purchasing, and products and services that reflect who we are, we’re creating policies and practices that build profit with purpose. Together, we’re transforming cultural pride into lasting wealth and legacy for generations to come.
+                Lowriders Wealth and Legacy is the first global membership club created for our community—where the heart of lowrider culture becomes a pathway to prosperity. We honor the traditions, creativity, and unity that define the movement and turn them into real opportunities for financial growth. Through the collective strength of our community, the power of shared purchasing, and products and services that reflect who we are, we’re creating policies and practices that build profit with purpose. Together, we’re transforming cultural pride into lasting wealth and legacy for generations to come.
 
               </p>
             </div>
