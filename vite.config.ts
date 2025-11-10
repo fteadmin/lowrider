@@ -10,4 +10,7 @@ export default defineConfig({
   server: {
     middlewareMode: false,
   },
+  preview: {
+    port: 4173,
+  },
 });
