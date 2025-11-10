@@ -67,6 +67,40 @@ export default function Events() {
               </div>
             </div>
 
+            <div className="grid md:grid-cols-2 gap-8 mt-8">
+              <div className="bg-black/50 p-6 rounded-lg border border-[#D9BA84]/30">
+                <h4 className="text-2xl font-bold text-[#D9BA84] mb-4">Who Should Attend</h4>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-[#D9BA84] mr-2">✦</span>
+                    <span><strong>Angel & Seed-Stage Investors</strong> seeking culturally anchored, high-upside opportunities</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#D9BA84] mr-2">✦</span>
+                    <span><strong>Prospective Founding Members</strong> and strategic partners ready to build together</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#D9BA84] mr-2">✦</span>
+                    <span><strong>Lowrider Community Leaders</strong> and enthusiasts passionate about the culture</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#D9BA84] mr-2">✦</span>
+                    <span><strong>Allies from Outside the Community</strong> who value inclusive, sustainable growth</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-black/50 p-6 rounded-lg border border-[#D9BA84]/30">
+                <h4 className="text-2xl font-bold text-[#D9BA84] mb-4">Attire</h4>
+                <p className="text-gray-300 text-lg">
+                  <strong>Smart Casual / Elevated Street</strong>
+                </p>
+                <p className="text-gray-400 text-sm mt-4">
+                  Dress to impress while expressing your personal style. This is a celebration of culture and community—come as your best self.
+                </p>
+              </div>
+            </div>
+
             <div className="text-center mt-12">
               <p className="text-lg text-gray-300 mb-6">
                 Limited spots available. Secure your place now!
