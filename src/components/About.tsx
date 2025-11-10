@@ -15,21 +15,21 @@ export default function About() {
             <p className="text-lg text-gray-300 leading-relaxed">
               The <span className="text-[#D9BA84] font-semibold">World Lowrider Association (WLA)</span> is the global organisation dedicated to preserving, promoting, and celebrating lowrider culture through artistry, craftsmanship, and community.
             </p>
-            <div className="grid grid-cols-3 gap-6 mt-8">
-              <div className="text-center p-6 bg-zinc-800 rounded-lg border border-[#D9BA84]/30">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8">
+              <div className="text-center p-4 sm:p-6 bg-zinc-800 rounded-lg border border-[#D9BA84]/30">
                 <Users className="w-8 h-8 text-[#D9BA84] mx-auto mb-2" />
-                <p className="text-2xl font-bold text-[#D9BA84]">Global</p>
-                <p className="text-sm text-gray-400">Community</p>
+                <p className="text-xl sm:text-2xl font-bold text-[#D9BA84]">Global</p>
+                <p className="text-xs sm:text-sm text-gray-400">Community</p>
               </div>
-              <div className="text-center p-6 bg-zinc-800 rounded-lg border border-[#D9BA84]/30">
+              <div className="text-center p-4 sm:p-6 bg-zinc-800 rounded-lg border border-[#D9BA84]/30">
                 <Award className="w-8 h-8 text-[#D9BA84] mx-auto mb-2" />
-                <p className="text-2xl font-bold text-[#D9BA84]">Heritage</p>
-                <p className="text-sm text-gray-400">Preservation</p>
+                <p className="text-xl sm:text-2xl font-bold text-[#D9BA84]">Heritage</p>
+                <p className="text-xs sm:text-sm text-gray-400">Preservation</p>
               </div>
-              <div className="text-center p-6 bg-zinc-800 rounded-lg border border-[#D9BA84]/30">
+              <div className="text-center p-4 sm:p-6 bg-zinc-800 rounded-lg border border-[#D9BA84]/30">
                 <Crown className="w-8 h-8 text-[#D9BA84] mx-auto mb-2" />
-                <p className="text-2xl font-bold text-[#D9BA84]">Excellence</p>
-                <p className="text-sm text-gray-400">In Craft</p>
+                <p className="text-xl sm:text-2xl font-bold text-[#D9BA84]">Excellence</p>
+                <p className="text-xs sm:text-sm text-gray-400">In Craft</p>
               </div>
             </div>
           </div>

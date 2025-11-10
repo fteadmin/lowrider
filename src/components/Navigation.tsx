@@ -68,7 +68,7 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
                     onClick={() => setIsDropdownOpen(false)}
                     className="block px-4 py-3 text-gray-300 hover:bg-[#D9BA84]/20 hover:text-[#D9BA84] transition-colors"
                   >
-                    The World Low Rider Association
+                    The World Lowrider Association
                   </Link>
                   <Link
                     to="/wealth-legacy"

@@ -128,7 +128,7 @@ export default function Competition() {
             <Zap className="w-12 h-12 text-[#CCB550]" />
             <div>
               <h2 className="text-4xl font-bold text-[#D9BA84]">🚗 LIVE EVENT BONUS!</h2>
-              <p className="text-xl text-[#CCB550]">November 16th</p>
+              <p className="text-xl text-[#CCB550]">Sunday, November 16th</p>
             </div>
           </div>
           
@@ -155,7 +155,7 @@ export default function Competition() {
           </div>
 
           <p className="text-gray-300 text-lg">
-            <span className="text-[#D9BA84] font-bold">Event Details:</span> November 16th | Long Beach, California
+            <span className="text-[#D9BA84] font-bold">Event Details:</span> Sunday, November 16th | Long Beach, California
           </p>
         </div>
 
