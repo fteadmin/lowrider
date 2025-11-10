@@ -27,7 +27,7 @@ export default function Events() {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span><strong>Date:</strong> Saturday, November 16</span>
+                    <span><strong>Date:</strong> Sunday, November 16</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
