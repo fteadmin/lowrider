@@ -25,7 +25,7 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-4">
-            <img src="/Lowriders Logo.jpg" alt="WLA Logo" className="h-12 w-12 object-contain" />
+            <img src="/lowriderlogo.png" alt="WLA Logo" className="h-12 w-12 object-contain" />
             <span className="text-2xl font-bold bg-gradient-to-r from-[#D9BA84] to-[#CCB550] bg-clip-text text-transparent">WLA</span>
           </Link>
 
