@@ -1,4 +1,5 @@
-import { TrendingUp, Crown, Users, BookOpen, DollarSign, Award, Shield, Sparkles } from 'lucide-react';
+import { TrendingUp, Crown, Users, DollarSign, Award, Shield, Sparkles } from 'lucide-react';
+import WealthCard from '../components/WealthCard';
 
 export default function WealthLegacy() {
   return (
@@ -38,185 +39,100 @@ export default function WealthLegacy() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-10">
-            <div className="bg-zinc-900 rounded-2xl border-2 border-[#D9BA84]/40 hover:border-[#D9BA84]/80 transition-all h-full p-8">
-              <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center">
-                  <div className="bg-[#D9BA84]/20 p-3 rounded-xl mr-4">
-                    <TrendingUp className="w-10 h-10 text-[#D9BA84]" />
-                  </div>
-                  <div>
-                    <h2 className="text-3xl font-bold text-[#D9BA84]">Founding Member</h2>
-                    <p className="text-gray-400 text-sm">Wealth Builder Package</p>
-                  </div>
-                </div>
-                <Sparkles className="w-8 h-8 text-[#D9BA84]" />
-              </div>
+            <WealthCard
+              icon={<TrendingUp className="w-10 h-10 text-[#D9BA84]" />}
+              title="Founding Member"
+              subtitle="Elite Status | Maximum Returns | Legacy Building"
+              badgeIcon={<Sparkles className="w-8 h-8 text-[#D9BA84]" />}
+              investment="$5,000"
+              dividend="$125,000"
+              contract="2 Year Contract"
+              roi="25X Return on Investment"
+              description="As a Founding Member, you receive the highest tier of benefits:"
+              benefits={[
+                {
+                  icon: <DollarSign className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Financial Benefits",
+                  description: "Receive $125,000 after 2 years through smart contract technology\n• Equity Partnerships: Direct ownership stakes in partner company Randolph Enterprises\n• Parent Company Shares: Equity participation in Future Trends Enterprise\n• Priority Capital Access: First access to FTE Venture Capital CDFI lending opportunities\n• Profit Sharing: Participate in organizational profit distribution"
+                },
+                {
+                  icon: <Users className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Governance and Leadership",
+                  description: "• Voting Rights: Active participation in organizational decisions and strategic direction\n• Event Hosting: Ability to host and sponsor official Low Riders Wealth and Legacy events\n• Advisory Board Eligibility: Opportunity to serve on organizational advisory boards\n• Cultural Leadership: Recognition as a pioneer building tomorrow's lowrider legacy"
+                },
+                {
+                  icon: <TrendingUp className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Business Development Suite",
+                  description: "• Custom Business Entity Creation: Tailored corporate structures designed for maximum scaling potential\n• Advanced Tax Protection: Strategic tax optimization frameworks to maximize efficiency\n• Enhanced Funding Capacity: Priority access to capital resources and exclusive investment opportunities\n• Professional Consultation: Direct access to business development experts and financial advisors"
+                },
+                {
+                  icon: <Shield className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Premium Event Access",
+                  description: "• VIP Access to The Lo-Lo Awards: Premium seating, backstage passes, and exclusive networking\n• Private Meet & Greets: Intimate sessions with lowrider legends and industry leaders\n• Founding Member Recognition: Special acknowledgment at all major events and ceremonies\n• Member Marketplace Priority: First access to exclusive vendor opportunities and partnerships"
+                }
+              ]}
+              buttonText="Become a Founding Member"
+            />
 
-              <div className="bg-black/80 backdrop-blur-sm p-6 rounded-xl border-2 border-[#D9BA84]/60 mb-6">
-                <div className="grid grid-cols-2 gap-4 text-center">
-                  <div>
-                    <p className="text-gray-400 text-sm mb-1">Investment</p>
-                    <p className="text-4xl font-bold text-[#D9BA84]">$5,000</p>
-                  </div>
-                  <div>
-                    <p className="text-gray-400 text-sm mb-1">Member Dividend</p>
-                    <p className="text-4xl font-bold text-[#D9BA84]">$125,000</p>
-                  </div>
-                </div>
-                <div className="mt-4 pt-4 border-t border-[#D9BA84]/30 text-center">
-                  <p className="text-sm text-gray-400">2 Year Contract</p>
-                  <p className="text-xl font-bold text-white mt-1">25X Return on Investment</p>
-                </div>
-              </div>
-
-              <p className="text-gray-300 mb-8 text-lg leading-relaxed">
-                For entrepreneurs and professionals ready to build financial independence while honoring lowrider heritage.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="bg-black/60 backdrop-blur-sm p-5 rounded-xl border border-[#D9BA84]/20">
-                  <div className="flex items-start">
-                    <DollarSign className="w-6 h-6 text-[#D9BA84] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-white mb-2">Financial Education</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        Comprehensive workshops covering budgeting, investing, credit management, and wealth-building strategies
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-black/60 backdrop-blur-sm p-5 rounded-xl border border-[#D9BA84]/20">
-                  <div className="flex items-start">
-                    <Users className="w-6 h-6 text-[#D9BA84] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-white mb-2">Business Mentorship</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        One-on-one guidance from successful entrepreneurs in the automotive and creative industries
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-black/60 backdrop-blur-sm p-5 rounded-xl border border-[#D9BA84]/20">
-                  <div className="flex items-start">
-                    <TrendingUp className="w-6 h-6 text-[#D9BA84] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-white mb-2">Investment Strategies</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        Learn to grow your wealth through stocks, real estate, and business ventures
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-black/60 backdrop-blur-sm p-5 rounded-xl border border-[#D9BA84]/20">
-                  <div className="flex items-start">
-                    <Shield className="w-6 h-6 text-[#D9BA84] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-white mb-2">Funding Opportunities</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        Access to small business loans, grants, and community investment programs
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <button className="w-full px-8 py-5 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold text-lg rounded-xl hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-xl shadow-[#D9BA84]/40">
-                Become a Founding Member
-              </button>
-            </div>
-
-            <div className="bg-zinc-900 rounded-2xl border-2 border-[#D9BA84]/40 hover:border-[#D9BA84]/80 transition-all h-full p-8">
-              <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center">
-                  <div className="bg-[#D9BA84]/20 p-3 rounded-xl mr-4">
-                    <Crown className="w-10 h-10 text-[#D9BA84]" />
-                  </div>
-                  <div>
-                    <h2 className="text-3xl font-bold text-[#D9BA84]">Legacy Member</h2>
-                    <p className="text-gray-400 text-sm">Heritage Keeper Package</p>
-                  </div>
-                </div>
-                <Sparkles className="w-8 h-8 text-[#D9BA84]" />
-              </div>
-
-              <div className="bg-black/80 backdrop-blur-sm p-6 rounded-xl border-2 border-[#D9BA84]/60 mb-6">
-                <div className="grid grid-cols-2 gap-4 text-center">
-                  <div>
-                    <p className="text-gray-400 text-sm mb-1">Investment</p>
-                    <p className="text-4xl font-bold text-[#D9BA84]">$500</p>
-                  </div>
-                  <div>
-                    <p className="text-gray-400 text-sm mb-1">Member Dividend</p>
-                    <p className="text-4xl font-bold text-[#D9BA84]">$25,000</p>
-                  </div>
-                </div>
-                <div className="mt-4 pt-4 border-t border-[#D9BA84]/30 text-center">
-                  <p className="text-sm text-gray-400">2 Year Contract</p>
-                  <p className="text-xl font-bold text-white mt-1">50X Return on Investment</p>
-                </div>
-              </div>
-
-              <p className="text-gray-300 mb-8 text-lg leading-relaxed">
-                For families committed to preserving culture and passing down prosperity for generations to come.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="bg-black/60 backdrop-blur-sm p-5 rounded-xl border border-[#D9BA84]/20">
-                  <div className="flex items-start">
-                    <TrendingUp className="w-6 h-6 text-[#D9BA84] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-white mb-2">Generational Wealth Transfer</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        Strategic planning to protect and pass down assets, businesses, and property to future generations
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-black/60 backdrop-blur-sm p-5 rounded-xl border border-[#D9BA84]/20">
-                  <div className="flex items-start">
-                    <BookOpen className="w-6 h-6 text-[#D9BA84] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-white mb-2">Estate Planning</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        Professional guidance on wills, trusts, and legacy documentation to secure your family's future
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-black/60 backdrop-blur-sm p-5 rounded-xl border border-[#D9BA84]/20">
-                  <div className="flex items-start">
-                    <Award className="w-6 h-6 text-[#D9BA84] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-white mb-2">Cultural Preservation</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        Archive your family's lowrider history, stories, and vehicles for future generations
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-black/60 backdrop-blur-sm p-5 rounded-xl border border-[#D9BA84]/20">
-                  <div className="flex items-start">
-                    <Users className="w-6 h-6 text-[#D9BA84] mr-3 mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-white mb-2">Exclusive Legacy Workshops</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        Special sessions on family governance, storytelling, and preserving traditions with financial security
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <button className="w-full px-8 py-5 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] text-[#031100] font-bold text-lg rounded-xl hover:from-[#CCB550] hover:to-[#DCBD84] transform hover:scale-105 transition-all shadow-xl shadow-[#D9BA84]/40">
-                Become a Legacy Member
-              </button>
-            </div>
+            <WealthCard
+              icon={<Crown className="w-10 h-10 text-[#D9BA84]" />}
+              title="Legacy Member"
+              subtitle="Building Generational Wealth Through Cultural Pride"
+              badgeIcon={<Sparkles className="w-8 h-8 text-[#D9BA84]" />}
+              investment="$500"
+              dividend="$25,000"
+              contract="2 Year Contract"
+              roi="50X Return on Investment"
+              description="As a Legacy Member, you gain access to:"
+              benefits={[
+                {
+                  icon: <DollarSign className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Member Dividend",
+                  description: "• Receive $25,000 after 2 years through smart contract technology"
+                },
+                {
+                  icon: <Users className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Exclusive Networking Events",
+                  description: "• Priority access to The Lo-Lo Awards and other cultural celebrations"
+                },
+                {
+                  icon: <Award className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Community Recognition",
+                  description: "• Official Legacy Member status and recognition at all events"
+                },
+                {
+                  icon: <Sparkles className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Cultural Preservation",
+                  description: "• Direct contribution to preserving and promoting lowrider heritage"
+                },
+                {
+                  icon: <TrendingUp className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Business Development Support",
+                  description: "• Access to educational resources and community networking"
+                },
+                {
+                  icon: <Shield className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Member Marketplace Access",
+                  description: "• Exclusive access to member-only marketplace and vendor opportunities"
+                },
+                {
+                  icon: <Crown className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Founding Member Nomination",
+                  description: "• Eligible for upgrade to Founding Member status with expanded benefits"
+                },
+                {
+                  icon: <Users className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Community Building",
+                  description: "• Creating lasting connections across 75+ countries"
+                },
+                {
+                  icon: <TrendingUp className="w-6 h-6 text-[#D9BA84]" />,
+                  title: "Wealth Generation",
+                  description: "• Providing unprecedented financial opportunities"
+                }
+              ]}
+              buttonText="Become a Legacy Member"
+            />
           </div>
         </div>
       </section>

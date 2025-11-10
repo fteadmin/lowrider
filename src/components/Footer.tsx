@@ -8,7 +8,7 @@ export default function Footer() {
             <span className="text-xl font-bold bg-gradient-to-r from-[#D9BA84] to-[#CCB550] bg-clip-text text-transparent">World Low Rider Association</span>
           </div>
           <p className="text-gray-400 text-center md:text-right">
-            © 2025 World Low Rider Association. Celebrating culture, heritage, and excellence.
+            © 2025 World Lowrider Association. Celebrating culture, heritage, and excellence.
           </p>
         </div>
       </div>

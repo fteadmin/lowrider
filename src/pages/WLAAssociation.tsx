@@ -14,7 +14,7 @@ export default function WLAAssociation() {
             <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] bg-clip-text text-transparent">
               WLA
             </h1>
-            <p className="text-3xl md:text-4xl text-white font-light mb-4">World LowRider Association</p>
+            <p className="text-3xl md:text-4xl text-white font-light mb-4">World Lowrider Association</p>
             <div className="w-32 h-1 bg-gradient-to-r from-[#D9BA84] to-[#CCB550] mx-auto"></div>
           </div>
         </div>
