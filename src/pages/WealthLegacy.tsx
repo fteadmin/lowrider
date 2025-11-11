@@ -58,7 +58,7 @@ export default function WealthLegacy() {
                 {
                   icon: <Users className="w-6 h-6 text-[#D9BA84]" />,
                   title: "Governance and Leadership",
-                  description: "• Voting Rights: Active participation in organizational decisions and strategic direction\n• Event Hosting: Ability to host and sponsor official Low Riders Wealth and Legacy events\n• Advisory Board Eligibility: Opportunity to serve on organizational advisory boards\n• Cultural Leadership: Recognition as a pioneer building tomorrow's lowrider legacy"
+                  description: "• Voting Rights: Active participation in organizational decisions and strategic direction\n• Event Hosting: Ability to host and sponsor official Lowrider Wealth and Legacy events\n• Advisory Board Eligibility: Opportunity to serve on organizational advisory boards\n• Cultural Leadership: Recognition as a pioneer building tomorrow's lowrider legacy"
                 },
                 {
                   icon: <TrendingUp className="w-6 h-6 text-[#D9BA84]" />,
