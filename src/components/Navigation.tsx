@@ -130,7 +130,7 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
               The World Lowrider Association
             </Link>
             <Link to="/wealth-legacy" onClick={() => setIsMenuOpen(false)} className="block w-full text-left text-gray-300 hover:text-[#D9BA84] transition-colors py-2 pl-4">
-              Lowriders Wealth and Legacy
+              Lowrider Wealth and Legacy
             </Link>
             {isHomePage ? (
               <button onClick={() => handleNavClick('contact')} className="block w-full text-left text-gray-300 hover:text-[#D9BA84] transition-colors py-2">
