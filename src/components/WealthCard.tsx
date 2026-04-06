@@ -12,9 +12,10 @@ interface WealthCardProps {
   subtitle: string;
   badgeIcon: ReactNode;
   investment: string;
-  dividend: string;
-  contract: string;
-  roi: string;
+  dividend?: string;
+  dividendLabel?: string;
+  contract?: string;
+  roi?: string;
   description: string;
   benefits: BenefitItem[];
   buttonText: string;
@@ -27,6 +28,7 @@ export default function WealthCard({
   badgeIcon,
   investment,
   dividend,
+  dividendLabel = 'Member Benefit',
   contract,
   roi,
   description,
@@ -49,20 +51,24 @@ export default function WealthCard({
       </div>
 
       <div className="bg-black/80 backdrop-blur-sm p-4 sm:p-6 rounded-xl border-2 border-[#D9BA84]/60 mb-6">
-        <div className="grid grid-cols-2 gap-4 text-center">
+        <div className={`grid ${dividend ? 'grid-cols-2' : 'grid-cols-1'} gap-4 text-center`}>
           <div>
             <p className="text-gray-400 text-xs sm:text-sm mb-1">Investment</p>
             <p className="text-2xl sm:text-4xl font-bold text-[#D9BA84]">{investment}</p>
           </div>
-          <div>
-            <p className="text-gray-400 text-xs sm:text-sm mb-1">Member Dividend</p>
-            <p className="text-2xl sm:text-4xl font-bold text-[#D9BA84]">{dividend}</p>
+          {dividend && (
+            <div>
+              <p className="text-gray-400 text-xs sm:text-sm mb-1">{dividendLabel}</p>
+              <p className="text-2xl sm:text-4xl font-bold text-[#D9BA84]">{dividend}</p>
+            </div>
+          )}
+        </div>
+        {(contract || roi) && (
+          <div className="mt-4 pt-4 border-t border-[#D9BA84]/30 text-center">
+            {contract && <p className="text-xs sm:text-sm text-gray-400">{contract}</p>}
+            {roi && <p className="text-lg sm:text-xl font-bold text-white mt-1">{roi}</p>}
           </div>
-        </div>
-        <div className="mt-4 pt-4 border-t border-[#D9BA84]/30 text-center">
-          <p className="text-xs sm:text-sm text-gray-400">{contract}</p>
-          <p className="text-lg sm:text-xl font-bold text-white mt-1">{roi}</p>
-        </div>
+        )}
       </div>
 
       <p className="text-gray-300 mb-8 text-base sm:text-lg leading-relaxed">

@@ -1,4 +1,4 @@
-import { TrendingUp, Crown, Users, DollarSign, Award, Shield, Sparkles } from 'lucide-react';
+import { TrendingUp, Crown, Users, Award, Shield, Sparkles } from 'lucide-react';
 import WealthCard from '../components/WealthCard';
 
 export default function WealthLegacy() {
@@ -45,16 +45,8 @@ export default function WealthLegacy() {
               subtitle="Elite Status | Maximum Returns | Legacy Building"
               badgeIcon={<Sparkles className="w-8 h-8 text-[#D9BA84]" />}
               investment="$5,000"
-              dividend="$125,000"
-              contract="2 Year Contract"
-              roi="25X Return on Investment"
               description="As a Founding Member, you receive the highest tier of benefits:"
               benefits={[
-                {
-                  icon: <DollarSign className="w-6 h-6 text-[#D9BA84]" />,
-                  title: "Financial Benefits",
-                  description: "Receive $125,000 after 2 years through smart contract technology\n• Equity Partnerships: Direct ownership stakes in partner company Randolph Enterprises\n• Parent Company Shares: Equity participation in Future Trends Enterprise\n• Priority Capital Access: First access to FTE Venture Capital CDFI lending opportunities\n• Profit Sharing: Participate in organizational profit distribution"
-                },
                 {
                   icon: <Users className="w-6 h-6 text-[#D9BA84]" />,
                   title: "Governance and Leadership",
@@ -80,16 +72,8 @@ export default function WealthLegacy() {
               subtitle="Building Generational Wealth Through Cultural Pride"
               badgeIcon={<Sparkles className="w-8 h-8 text-[#D9BA84]" />}
               investment="$500"
-              dividend="$25,000"
-              contract="2 Year Contract"
-              roi="50X Return on Investment"
               description="As a Legacy Member, you gain access to:"
               benefits={[
-                {
-                  icon: <DollarSign className="w-6 h-6 text-[#D9BA84]" />,
-                  title: "Member Dividend",
-                  description: "• Receive $25,000 after 2 years through smart contract technology"
-                },
                 {
                   icon: <Users className="w-6 h-6 text-[#D9BA84]" />,
                   title: "Exclusive Networking Events",
