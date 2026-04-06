@@ -8,7 +8,8 @@ interface HeroProps {
 
 interface Slide {
   id: number;
-  backgroundImage: string;
+  backgroundImage?: string;
+  backgroundVideo?: string;
   title: string;
   description: string;
   buttons: Array<{
@@ -27,6 +28,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
     {
       id: 1,
       backgroundImage: 'https://images.pexels.com/photos/1637210/pexels-photo-1637210.jpeg',
+      backgroundVideo: '/video/lowriderhero.mp4',
       title: 'World Lowrider Association',
       description: 'Preserving, promoting, and celebrating lowrider culture through artistry, craftsmanship, and community across the globe',
       buttons: [
@@ -36,7 +38,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
     },
     {
       id: 2,
-      backgroundImage: 'https://images.pexels.com/photos/1280560/pexels-photo-1280560.jpeg',
+      backgroundImage: '/lowhero.png',
       title: 'Ride to Win Competition!',
       description: 'Show off your lowrider pride and take home cash prizes! This is your chance to represent the culture, the craftsmanship, and the beauty of your ride to the world.',
       buttons: [
@@ -71,8 +73,22 @@ export default function Hero({ scrollToSection }: HeroProps) {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-      {/* Background Image */}
-      <div className="absolute inset-0 bg-cover bg-center transition-all duration-500" style={{backgroundImage: `url('${currentSlideData.backgroundImage}')`}}></div>
+      {/* Background media */}
+      {currentSlideData.backgroundVideo ? (
+        <video
+          className="absolute inset-0 h-full w-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          poster={currentSlideData.backgroundImage}
+        >
+          <source src={currentSlideData.backgroundVideo} type="video/mp4" />
+        </video>
+      ) : (
+        <div className="absolute inset-0 bg-cover bg-center transition-all duration-500" style={{ backgroundImage: `url('${currentSlideData.backgroundImage}')` }}></div>
+      )}
       
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#031100]/60 via-black/70 to-[#031100]/60"></div>

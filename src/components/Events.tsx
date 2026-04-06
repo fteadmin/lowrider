@@ -14,7 +14,7 @@ export default function Events() {
           <div className="relative z-10">
             <div className="flex items-center justify-center mb-6">
               <Calendar className="w-12 h-12 text-[#D9BA84] mr-4" />
-              <h3 className="text-4xl md:text-5xl font-bold text-[#D9BA84]">Company Launch Party</h3>
+              <h3 className="text-4xl md:text-5xl font-bold text-[#D9BA84]">Lowrider Cultural Meetup</h3>
             </div>
 
             <p className="text-xl text-center text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -27,7 +27,7 @@ export default function Events() {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span><strong>Date:</strong> Sunday, November 16</span>
+                    <span><strong>Date:</strong> April 26</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
@@ -35,7 +35,7 @@ export default function Events() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
-                    <span><strong>Location:</strong> Long Beach, CA</span>
+                    <span><strong>Location:</strong> Longbeach, CA</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#D9BA84] mr-2">✦</span>
